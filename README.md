@@ -9,7 +9,9 @@ Decrypt Ciphertext: Uses the same key to decrypt the ciphertext back to the orig
 
 ## Notes
 ~ The key is randomly generated and should be kept secure and used only once for encryption.
+
 ~ This project uses the <random> library for key generation.
+
 ~ The XOR operation ensures that encryption and decryption are symmetric.
 
 ## Contact
