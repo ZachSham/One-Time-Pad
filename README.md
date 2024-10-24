@@ -1,6 +1,6 @@
 # One-Time-Pad
 ## Overview
-This C++ project implements a basic One-Time Pad (OTP) encryption and decryption system. The OTP is a symmetric encryption technique that uses a random key of the same length as the plaintext, making it theoretically unbreakable when the key is truly random and used only once.
+This C++ project implements a basic One-Time Pad (OTP) encryption and decryption system. The OTP is a symmetric encryption technique that uses a random key of the same length as the plaintext, making it theoretically unbreakable when the key is truly random and used only once. My proffesor during my first semester of college, taught us briefly about the One-Time Pad. I was very intrugued by it, so I decided to implement it in C++. 
 
 ## Features
 Generate Random Key: Creates a random key of the same length as the input plaintext.
