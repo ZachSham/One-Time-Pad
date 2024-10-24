@@ -4,11 +4,13 @@ This C++ project implements a basic One-Time Pad (OTP) encryption and decryption
 
 ## Features
 Generate Random Key: Creates a random key of the same length as the input plaintext.
+
 Encrypt Plaintext: XOR operation is used to encrypt the plaintext with the generated key.
+
 Decrypt Ciphertext: Uses the same key to decrypt the ciphertext back to the original plaintext.
 
 ## Notes
-~ The key is randomly generated and should be kept secure and used only once for encryption.
+~ The key is randomly generated and should be kept secure and used only once for encryption so that it can be unbreakable
 
 ~ This project uses the <random> library for key generation.
 
